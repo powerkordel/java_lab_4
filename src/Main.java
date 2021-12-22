@@ -14,5 +14,12 @@ public class Main {
         c) stworzyć objekty tych klas i wyświetlić przykładowe wyliczenia
         */
 
+        Kwadrat kwadrat = new Kwadrat(4);
+        System.out.println(kwadrat);
+        System.out.println();
+
+        Prostokat prostokat = new Prostokat(5,6);
+        System.out.println(prostokat);
+
     }
 }
